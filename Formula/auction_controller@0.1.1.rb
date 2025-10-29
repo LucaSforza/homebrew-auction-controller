@@ -15,7 +15,6 @@ class AuctionController < Formula
 
   def install
     # The project is in the "auction_controller" subdirectory
-    cd "auction_controller" do
       # `std_cargo_args` is a Homebrew helper that automatically provides
       # the correct installation path (`--root`) for both macOS and Linux.
       # This is the key to making your formula cross-platform.
