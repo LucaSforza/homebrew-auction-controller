@@ -19,12 +19,11 @@ class AuctionController < Formula
       # the correct installation path (`--root`) for both macOS and Linux.
       # This is the key to making your formula cross-platform.
       system "cargo", "install", *std_cargo_args
-    end
   end
 
   test do
     # This test is also cross-platform
     system "#{bin}/auction_controller", "--version"
   end
-
+end
 
