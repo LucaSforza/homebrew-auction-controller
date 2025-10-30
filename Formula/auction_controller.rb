@@ -25,6 +25,5 @@ class AuctionController < Formula
     # This test is also cross-platform
     system "#{bin}/auction_controller", "--version"
   end
-end
 
 
