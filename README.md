@@ -2,16 +2,9 @@
 
 ## How do I install these formulae?
 
-`brew install auction_controller/auction-controller/<formula>`
+`brew install auction_controller/auction-controller/auction_controller`
 
-Or `brew tap auction_controller/auction-controller` and then `brew install <formula>`.
-
-Or, in a `brew bundle` `Brewfile`:
-
-```ruby
-tap "auction_controller/auction-controller"
-brew "<formula>"
-```
+Or `brew tap lucasforza/auction-controller` and then `brew install auction_controller`.
 
 ## Documentation
 
