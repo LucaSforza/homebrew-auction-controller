@@ -3,9 +3,9 @@ class AuctionController < Formula
   homepage "https://github.com/LucaSforza/token"
   license "GPL-3.0-only"
   
-  url "https://github.com/LucaSforza/token/archive/refs/tags/v0.1.1.tar.gz"
+  url "https://github.com/LucaSforza/token/archive/refs/tags/v1.0.0.tar.gz"
   # Use the checksum you generated in your terminal
-  sha256 "972150f08291943a9e3c3ac69303d97169e63f0d9ad6e9cff5c54fcbbc175f43"
+  sha256 "731c453a4bf6abdd4f4cbc60af63156612369896c91cc00bab7e81f068bd3940"
   # ============================
   # `head` block, kept as an option
   head "https://github.com/LucaSforza/token.git", branch: "main"
